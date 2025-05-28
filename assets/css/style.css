@@ -1124,7 +1124,7 @@ a:focus {
     position: relative;
     width: max-content;
     height: 50px;
-    padding: 0 33px 0 32px;
+    padding: 0 10px 0 10px;
     border: 1px solid #c6ac83;
     display: flex;
     align-items: center;
