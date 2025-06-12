@@ -1493,7 +1493,7 @@ form.form-search button {
 }
 
 .wg-private-event.style-1 .content {
-    padding-top: 77px;
+    padding-top: 100px;
 }
 
 .wg-private-event.style-1 .heading-section .sub {
@@ -2476,7 +2476,7 @@ form.form-search button {
 
 .portfolio-item img {
     width: 100%;
-    height: 575px;
+    height: 100%;
     object-fit: cover;
 }
 
