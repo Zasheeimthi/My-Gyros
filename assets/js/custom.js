@@ -468,22 +468,22 @@ var swigo = function(){
 	}
 	
 	/* BGEFFECT ============ */
-	var reposition = function () {
-		var modal = jQuery(this),
+	// var reposition = function () {
+	// 	var modal = jQuery(this),
 
-		dialog = modal.find('.modal-dialog');
-		modal.css('display', 'block');
+	// 	dialog = modal.find('.modal-dialog');
+	// 	modal.css('display', 'block');
 
-		/* Dividing by two centers the modal exactly, but dividing by three  or four works better for larger screens.  */
-		dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
-	}
+	// 	/* Dividing by two centers the modal exactly, but dividing by three  or four works better for larger screens.  */
+	// 	dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));
+	// }
 
-	var handelResize = function () {
-		/* Reposition when the window is resized */
-		jQuery(window).on('resize', function () {
-			jQuery('.modal:visible').each(reposition);
-		});
-	}
+	// var handelResize = function () {
+	// 	/* Reposition when the window is resized */
+	// 	jQuery(window).on('resize', function () {
+	// 		jQuery('.modal:visible').each(reposition);
+	// 	});
+	// }
 	
 	/* HandleJanbar Toggler ============ */
 	var handleScreenLock = function(){
