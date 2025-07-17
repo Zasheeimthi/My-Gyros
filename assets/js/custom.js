@@ -456,7 +456,7 @@ var swigo = function(){
 			jQuery('body').append(modalBox);
 			
 			setTimeout(function () {
-				jQuery("#myModal").modal('show');
+				jQuery("#myModal").modal('hide');
 			}, 5000)
 		}
 	}
@@ -472,7 +472,7 @@ var swigo = function(){
 		var modal = jQuery(this),
 
 		dialog = modal.find('.modal-dialog');
-		modal.css('display', 'block');
+		modal.css('display', 'none');
 
 		/* Dividing by two centers the modal exactly, but dividing by three  or four works better for larger screens.  */
 		dialog.css("margin-top", Math.max(0, (jQuery(window).height() - dialog.height()) / 2));

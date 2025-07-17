@@ -34061,10 +34061,10 @@ pre {
   opacity: 0 !important;
 }
 
-#myModal{
+/* #myModal{
   display: none !important;
-}
+} */
 
-.modal-backdrop{
+/* .modal-backdrop{
   z-index: 1 !important;
-}
+} */
