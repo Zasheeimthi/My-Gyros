@@ -461,11 +461,11 @@ var swigo = function(){
 	// 	}
 	// }
 	
-	var handleOpenModalCookie = function () {
-		$(document).on('click', '.modal-content .btn-close', function () {
-			setCookie('prevent_subscription', 'true', 60);
-		});
-	}
+	// var handleOpenModalCookie = function () {
+	// 	$(document).on('click', '.modal-content .btn-close', function () {
+	// 		setCookie('prevent_subscription', 'true', 60);
+	// 	});
+	// }
 	
 	/* BGEFFECT ============ */
 	// var reposition = function () {
