@@ -34064,3 +34064,7 @@ pre {
 #myModal{
   display: none !important;
 }
+
+.modal-backdrop{
+  z-index: 1 !important;
+}
