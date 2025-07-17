@@ -34053,3 +34053,7 @@ pre {
   margin-bottom: 0px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.modal-dialog{
+  display: none !important;
+}
