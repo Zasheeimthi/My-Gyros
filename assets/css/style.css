@@ -34054,6 +34054,13 @@ pre {
 }
 /*# sourceMappingURL=style.css.map */
 
-/* .modal-dialog{
+.modal-dialog{
   display: none !important;
-} */
+}
+.modal-backdrop.show{
+  opacity: 0 !important;
+}
+
+#myModal{
+  display: none !important;
+}
