@@ -80,8 +80,8 @@
 @import url("../icons/flaticon/flaticon_swigo.css");
 @import url("../icons/feather/css/iconfont.css");
 :root {
-  --primary: #7DA640;
-  --secondary: #FE9F10;
+  --primary: #8B1812;
+  --secondary: #F1DDBF;
   --gray: #f3f4f8;
   --primary-hover: rgb(97.2826086957, 129.1913043478, 49.8086956522);
   --primary-dark: rgb(41.847826087, 55.5739130435, 21.4260869565);
@@ -102,8 +102,8 @@
 }
 
 [data-color=color_1] {
-  --primary: #7DA640;
-  --primary-hover:#6d9533;
+  --primary: #8B1812;
+  --primary-hover:#F1DDBF;
   --primary-dark: #4a6a1a;
   --rgba-primary-1: rgba(125, 166, 64, 0.1);
   --rgba-primary-2: rgba(125, 166, 64, 0.2);
