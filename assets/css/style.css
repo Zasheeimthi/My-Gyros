@@ -23472,7 +23472,7 @@ ul a.rsswidget:hover {
 }
 
 .inquiry-modal {
-  background: rgba(0, 0, 0, 0.6);
+  background: unset !important;
 }
 .inquiry-modal .modal-dialog {
   max-width: 800px;
@@ -34054,12 +34054,12 @@ pre {
 }
 /*# sourceMappingURL=style.css.map */
 
-.modal-dialog{
+/* .modal-dialog{
   display: none !important;
 }
 .modal-backdrop.show{
   opacity: 0 !important;
-}
+} */
 
 /* #myModal{
   display: none !important;
