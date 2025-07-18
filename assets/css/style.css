@@ -21956,6 +21956,7 @@ button:focus {
   width: 40px;
   height: 2px;
   background-color: #000;
+  display: none;
 }
 .btn-prev-long:hover:not(.swiper-button-disabled) i,
 .btn-next-long:hover:not(.swiper-button-disabled) i {
