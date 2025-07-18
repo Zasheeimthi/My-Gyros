@@ -5713,24 +5713,37 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+body {
+  overflow: auto !important;
+}
+
+
+.modal,
 .modal-dialog {
+  display: none !important; 
   position: relative;
   width: auto;
   margin: var(--bs-modal-margin);
   pointer-events: none;
 }
+
 .modal.fade .modal-dialog {
-  transition: transform 0.3s ease-out;
-  transform: translate(0, -50px);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
 }
+
+
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     transition: none;
   }
 }
+
 .modal.show .modal-dialog {
-  transform: none;
+  display: flex !important;
+  opacity: 1;
 }
+
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);
 }
@@ -5745,6 +5758,7 @@ textarea.form-control-lg {
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
 }
+
 
 .modal-dialog-centered {
   display: flex;
@@ -5766,24 +5780,18 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
-  --bs-backdrop-bg: #000;
-  --bs-backdrop-opacity: 0.5;
   position: fixed;
   top: 0;
   left: 0;
   z-index: var(--bs-backdrop-zindex);
   width: 100vw;
   height: 100vh;
-  background-color: var(--bs-backdrop-bg);
+  display: none !important; /* Keep backdrop hidden */
 }
-.modal-backdrop.fade {
-  opacity: 0;
-}
-.modal-backdrop.show {
-  opacity: var(--bs-backdrop-opacity);
-}
+
 
 .modal-header {
   display: flex;
@@ -5799,17 +5807,18 @@ textarea.form-control-lg {
   margin: calc(-0.5 * var(--bs-modal-header-padding-y)) calc(-0.5 * var(--bs-modal-header-padding-x)) calc(-0.5 * var(--bs-modal-header-padding-y)) auto;
 }
 
+/* Modal title */
 .modal-title {
   margin-bottom: 0;
   line-height: var(--bs-modal-title-line-height);
 }
 
+/* Modal body */
 .modal-body {
   position: relative;
   flex: 1 1 auto;
   padding: var(--bs-modal-padding);
 }
-
 .modal-footer {
   display: flex;
   flex-shrink: 0;
@@ -34054,10 +34063,10 @@ pre {
 }
 /*# sourceMappingURL=style.css.map */
 
- .modal-dialog{
+/* .modal-dialog{
   display: none !important;
 }
-/* .modal-backdrop.show{
+.modal-backdrop.show{
   opacity: 0 !important;
 } */
 
@@ -34065,3 +34074,6 @@ pre {
   display: none !important;
 } */
 
+/* .modal-backdrop{
+  z-index: 1 !important;
+} */
